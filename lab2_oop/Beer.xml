@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tns:schema xmlns:tns="http://www.example.com/Club" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.com/shema schema.xsd ">
+    <beers>
+        <beer>
+            <name id="ID-1">beer1</name>
+            <type>
+                <light>
+                    <water>1</water>
+                    <malt>300</malt>
+                    <hop>25</hop>
+                    <yeast>9</yeast>
+                    <sugar>8</sugar>
+                    <chars>
+                        <revolNumber>10</revolNumber>
+                        <transparency>10</transparency>
+                        <filtered>false</filtered>
+                        <nutritionalValue>115</nutritionalValue>
+                        <spillMethod>
+                            <capacity>12</capacity>
+                            <material>material1</material>
+                        </spillMethod>
+                    </chars>
+                </light>
+            </type>
+            <al>true</al>
+            <manufacturer>m1</manufacturer>
+        </beer>
+
+	<beer>
+            <name id="ID-2">beer2</name>
+            <type>
+                <dark>
+                    <water>1</water>
+                    <malt>100</malt>
+                    <flour>80</flour>
+                    <hop>20</hop>
+                    <yeast>7</yeast>
+                    <chars>
+                        <revolNumber>10</revolNumber>
+                        <transparency>20</transparency>
+                        <filtered>false</filtered>
+                        <nutritionalValue>137</nutritionalValue>
+                        <spillMethod>
+                            <capacity>15</capacity>
+                            <material>material1</material>
+                        </spillMethod>
+                    </chars>
+                </dark>
+            </type>
+            <al>true</al>
+            <manufacturer>m2</manufacturer>
+        </beer>
+
+	<beer>
+            <name id="ID-3">beer3</name>
+            <type>
+                <dark>
+                    <water>2</water>
+                    <malt>150</malt>
+                    <flour>80</flour>
+                    <hop>20</hop>
+                    <yeast>7</yeast>
+                    <chars>
+                        <revolNumber>10</revolNumber>
+                        <transparency>20</transparency>
+                        <filtered>false</filtered>
+                        <nutritionalValue>300</nutritionalValue>
+                        <spillMethod>
+                            <capacity>12</capacity>
+                            <material>material1</material>
+                        </spillMethod>
+                    </chars>
+                </dark>
+            </type>
+            <al>false</al>
+            <manufacturer>m3</manufacturer>
+        </beer>
+    </beers>
+</tns:schema>
